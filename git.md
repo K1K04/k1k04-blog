@@ -8,7 +8,7 @@ permalink: /git/
    
    ![alt text](https://live.staticflickr.com/65535/40666021673_fb324524ec_b.jpg)
    
-   ## Comandos basicos
+## Comandos basicos
    
    | Comando                               | Descripción                                                     |
 |---------------------------------------|-----------------------------------------------------------------|
@@ -36,7 +36,7 @@ permalink: /git/
    
    Utilizaremos git para realizar el control de versiones de los proyectos que realicemos en la asignatura. Deberás ir realizando los proyectos de forma incremental, y registrar los cambios (commits) realizados.
    
-   ## Empezemos
+## Empezemos
    Primero instalaremos el git.
    
    `sudo apt install git`
@@ -49,7 +49,7 @@ permalink: /git/
    Iremos a nuestro directorio y lo inicializamos.
    `git init`
    
-   ## Ventajas de Utilizar Git
+## Ventajas de Utilizar Git
 
 1. **Control de Versiones**
    - Permite rastrear los cambios en el código a lo largo del tiempo, facilitando la gestión de versiones.
