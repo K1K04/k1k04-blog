@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    {% seo %}
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://previews.123rf.com/images/popaukropa/popaukropa1710/popaukropa171000042/87469433-letra-k-letra-bitcoin-alfabeto-de-criptomonedas-letras-de-dinero-virtual-ilustraci%C3%B3n-vectorial.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://previews.123rf.com/images/popaukropa/popaukropa1710/popaukropa171000042/87469433-letra-k-letra-bitcoin-alfabeto-de-criptomonedas-letras-de-dinero-virtual-ilustraci%C3%B3n-vectorial.jpg">  
+</head>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.description }}</p>
+	<nav>
+		<ul>
+     			 <li><a href="{{ '/' | relative_url }}">Home</a></li>
+     			 <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+     			 <li><a href="{{ '/kiko/' | relative_url }}">Kiko</a></li>
+      			<li><a href="{{ '/lxc/' | relative_url }}">LXC</a></li>
+			<li><a href="{{ '/temas-jekyll/' | relative_url }}">Temas-jekyll</a></li>
+		</ul>
+	</nav>
+
+      </header>
+      <section>
+        {{ content }}
+      </section>
+    </div>
+    <footer>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
+    </footer>
+  </body>
+</html>
