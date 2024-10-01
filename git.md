@@ -1,3 +1,9 @@
+---
+layout: default
+title: Git
+permalink: /git/
+---
+
 # Git y GitHub
    
    ![alt text](https://live.staticflickr.com/65535/40666021673_fb324524ec_b.jpg)
@@ -40,5 +46,39 @@
    git config --global user.name "John Doe"
    git config --global user.email johndoe@example.com`
    ```
-   Iremos a nuestro direcotio y lo inicializamos.
+   Iremos a nuestro directorio y lo inicializamos.
    `git init`
+   
+   ## Ventajas de Utilizar Git
+
+1. **Control de Versiones**
+   - Permite rastrear los cambios en el código a lo largo del tiempo, facilitando la gestión de versiones.
+
+2. **Colaboración**
+   - Facilita el trabajo en equipo al permitir que múltiples desarrolladores trabajen en el mismo proyecto simultáneamente.
+
+3. **Ramas y Fusiones**
+   - Soporta la creación de ramas para trabajar en características o correcciones de manera aislada, que luego pueden fusionarse con la rama principal.
+
+4. **Deshacer Cambios**
+   - Proporciona herramientas para deshacer cambios o revertir a versiones anteriores en caso de errores.
+
+5. **Almacenamiento Eficiente**
+   - Git almacena datos de manera eficiente, lo que permite manejar proyectos grandes sin un gran consumo de espacio.
+
+6. **Rápido y Ligero**
+   - Las operaciones como commit, branch, y merge son rápidas debido a la naturaleza local de Git.
+
+7. **Trabajo Offline**
+   - Permite trabajar sin conexión a Internet; puedes realizar commits y otras operaciones localmente y sincronizarlos más tarde.
+
+8. **Integración Continua**
+   - Facilita la integración continua con herramientas de automatización para pruebas y despliegue.
+
+9. **Historial Completo**
+   - Mantiene un historial completo de cambios, lo que ayuda a comprender el desarrollo del proyecto y la toma de decisiones.
+
+10. **Amplio Soporte**
+    - Es ampliamente utilizado en la industria, lo que facilita la colaboración con otros desarrolladores y la integración con diversas herramientas.
+
+[MAS SOBRE GIT](https://https://fp.josedomingo.org/iaw2122/u01/github.html)
