@@ -14,7 +14,7 @@ fi
 echo "Haciendo commit de los cambios con el mensaje: $1"
 git add .
 git commit -am "$1"
-
+git push -u origin main
 # Paso 2: Generar el sitio con Jekyll
 echo "Generando el sitio con Jekyll..."
 bundle exec jekyll build
