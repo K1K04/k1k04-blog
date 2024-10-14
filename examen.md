@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Prueba : Introduccion a la implatacion de aplicaciones web
+title: "Prueba: Introduccion a la implatacion de aplicaciones web"
 permalink: /examen/
 ---
 # Francisco Javier Doblado
